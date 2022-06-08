@@ -1,25 +1,25 @@
 {
-    "name": "jonnyw/php-phantomjs",
+    "name": "jawadabbass/php-phantomjs",
     "description": "A PHP wrapper for loading pages through PhantomJS",
     "keywords": ["PhantomJS", "Testing", "Headless Browser"],
 	"type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Jonny Wenmoth",
-            "email": "contact@jonnyw.me",
-            "homepage": "http://jonnyw.me/"
+            "name": "Jawad Abbass",
+            "email": "contact@jawadabbass.me",
+            "homepage": "http://jawadabbass.me/"
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.0",
-        "symfony/config": "~2.3|~3.0",
-        "symfony/dependency-injection": "~2.3|~3.0",
-        "symfony/filesystem": "~2.3|~3.0",
-        "symfony/yaml": "~2.3|~3.0",
-        "twig/twig": "~1.16",
-        "jakoch/phantomjs-installer": "2.1.1-p08"
+        "php": ">=7.2.5",
+        "symfony/config": "^5.4",
+        "symfony/dependency-injection": "^5.4",
+        "symfony/filesystem": "^5.4",
+        "symfony/yaml": "^5.4",
+        "twig/twig": "^3.0",
+        "jakoch/phantomjs-installer": "^3"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-0": {
-            "JonnyW\\PhantomJs\\": "src"
+            "jawadabbass\\PhantomJs\\": "src"
         },
 		"classmap": ["src/"]
     },
